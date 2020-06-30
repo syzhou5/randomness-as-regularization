@@ -1,5 +1,10 @@
 
 
+# Source functions in the best_subset.R and RandFS.R
+library(glmnet)
+library(MASS)
+dyn.load("matrixcomps.so")
+
 
 ##################################################################
 ##### Performance Comparison: Figure 8 and 11
